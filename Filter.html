@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="stylesheet" href="Filter.css">
+    <script src="Filter.js" defer></script>
+    <link rel="icon" href="../../ASSET/image/cursors/7.png">
+</head>
+<body>
+    <div id="container">
+       <h1>Image Editor</h1>
+        <div id="left">
+            <img id="image" src="../../ASSET/image/mountain.png" alt="">
+        </div>
+        <div id="right">
+            <div id="filters">
+                <p>
+                Blur <br> 
+                <input type="range" min="0" max="30" id="blur"> <br> 
+                Brightness <br> 
+                <input type="range" min="0" max="30" id="bright"> <br> 
+                Constrast <br> 
+                <input type="range"  min="0" max="5" id="cons"> <br> 
+                Grayscale <br> 
+                <input type="range" name="" id="grey" min="0" max="10" > <br> 
+                Hue-rotate <br> 
+                <input type="range" min="0" max="360" id="hue"> <br> 
+                Invert <br> 
+                <input type="range" name="" id="invert" min="0" max="10"> <br> 
+                Opacity <br> 
+                <input type="range" min="0" max="30" id="opacity"> <br> 
+                Saturate <br> 
+                <input type="range" name="" id="sat" min="0" max="30"> <br> 
+                Sepia <br> 
+                <input type="range" id="sepia" min="0" max="20"> <br> 
+            </p>
+            </div>
+            <div id="transform">
+                <p>
+                RotateZ <br>
+                <input type="range" min="0" max="360" id="zrot"> <br>
+                RotateX <br>
+                <input type="range" min="0" max="360" id="xrot"> <br>
+                RotateY <br>
+                <input type="range" min="0" max="360" id="yrot"> <br>
+                Scale <br>
+                <input type="range" min="0" max="3" id="scale"> <br>
+                Scale X <br>
+                <input type="range" min="0" max="30" id="xsca"> <br>
+                Scale Y <br>
+                <input type="range" min="0" max="30" id="ysca"> <br>
+                Skew <br>
+                <input type="range" min="0" max="360" id="skew"> <br>
+                Skey x <br>
+                <input type="range" min="0" max="360" id="xskew"> <br>
+                Skew Y <br>
+                <input type="range" min="0" max="360" id="yskew">
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
